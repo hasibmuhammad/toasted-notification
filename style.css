@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 1.3rem;
+    color: white;
+    margin: 1rem;
+    font-weight: bolder;
+}
+
+button {
+    background-color: blueviolet;
+    padding: 1rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
